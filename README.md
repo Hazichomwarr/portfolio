@@ -1,39 +1,92 @@
-# PRO_JOURNEY
-This is the merged README combining local and gh-pages versions.
+# Hamza Mare — Portfolio
 
-=======
-# 🌿 Hamza Mare – Front-End Developer Portfolio
-
-Welcome to my personal portfolio! I'm Hamza Mare, a self-taught front-end developer with a background in psychology. I have a passion for creating beautiful, responsive websites that connect people from diverse backgrounds.
-
-## 🔗 Live Site
-
-Explore the live version of my portfolio: [https://hazichomwarr.github.io/PRO_JOURNEY](https://hazichomwarr.github.io/PRO_JOURNEY)
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-- Responsive Web Design
-- Git & GitHub
-
-## 📂 Project Structure
-PRO_JOURNEY/
-├── week-4-capstone-html-css/
-│ ├── index.html
-│ ├── styles.css
-│ ├── images/
-
-## 📬 Contact Me
-
-Feel free to reach out:
-
-- 📧 Email: [marehamza8@gmail.com](mailto:marehamza8@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/hamza-mare-430baa223](https://www.linkedin.com/in/hamza-mare-430baa223/)
-- 🐙 GitHub: [github.com](https://github.com/Hazichomwarr)
+Live Site:
+👉 https://hazichomwarr.github.io/portfolio/
 
 ---
 
-*This portfolio is a continuous work in progress. Stay tuned for updates and new projects!*
->>>>>>> 12518d60ff3479be1ef7ee0bc4f4879d1530889e
+## About
+
+This repository contains my personal developer portfolio built with pure HTML, CSS, and a small amount of JavaScript.
+
+The goal was to keep the structure clean and simple while showcasing real production projects and full-stack capabilities.
+
+---
+
+## Featured Projects
+
+### 🟣 TouchPoint — Community Help Platform
+
+Live: https://touchpointapp.app  
+Code: https://github.com/Hazichomwarr/touchpoint
+
+A community-powered web application connecting people who need help with those ready to provide it.
+
+**Tech Stack**
+
+- React
+- TypeScript
+- Zustand
+- Express
+- MongoDB
+
+---
+
+### 🍽 Didi’s Cuisine — Restaurant Platform
+
+Live: https://didi-cuisine.com  
+Code: https://github.com/Hazichomwarr/didi_cuisine
+
+Production-ready restaurant website with ordering logic, backend integration, and database management.
+
+**Tech Stack**
+
+- Next.js
+- Prisma
+- PostgreSQL
+- Tailwind CSS
+
+---
+
+### 🌍 Wonder Woman — NGO Website
+
+Live: https://wonder-woman.vercel.app
+
+Client website promoting culture, empowerment, and community events.
+
+---
+
+### 🌎 Tianuni — Cultural Organization
+
+Live: https://tianuni-beta.vercel.app
+
+Website for a Quebec-based association promoting Afro-descendant cultures.
+
+---
+
+## Tech Used in This Portfolio
+
+- HTML5
+- CSS3
+- Responsive design
+- Vanilla JavaScript
+
+No frameworks — intentionally kept minimal.
+
+---
+
+## Deployment
+
+Hosted via GitHub Pages from the `main` branch.
+
+---
+
+## Contact
+
+Email: marehamza8@gmail.com  
+LinkedIn: https://www.linkedin.com/in/hamza-mare-430baa223/  
+GitHub: https://github.com/Hazichomwarr
+
+---
+
+© 2026 Hamza Mare

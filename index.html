@@ -20,9 +20,23 @@
     <!-- don't have the below <meta>s yet -->
     <meta
       property="og:image"
-      content="https://yourdomain.com/images/og-preview.jpg"
+      content="https://hazichomwarr.github.io/portfolio/images/og.png"
     />
-    <meta property="og:url" content="https://yourdomain.com" />
+    <meta
+      property="og:url"
+      content="https://hazichomwarr.github.io/portfolio/"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hamza Mare | Full-Stack Developer" />
+    <meta
+      name="twitter:description"
+      content="I build clean websites and full-stack web apps."
+    />
+    <meta
+      name="twitter:image"
+      content="https://hazichomwarr.github.io/portfolio/images/og.png"
+    />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
@@ -80,31 +94,11 @@
       <section id="about">
         <h2 class="about-header">A brief intro about me..</h2>
         <p class="about-text">
-          I’m a self-taught developer who finds joy in nature, reading, and
-          exploring the human mind—I also hold a bachelor’s degree in
-          psychology. What excites me most, is designing beautiful, meaningful
-          websites that connect people from different backgrounds and help them
-          in practical ways.
+          I’m a self-taught full-stack developer building clean websites and
+          practical web apps. I also have a bachelor’s degree in psychology,
+          which helps me think about human-centered design.
         </p>
-        <!-- <div class="skills">
-          <h3>Technologies I work with</h3>
-          <div class="skills-container">
-            <div class="skill">Html</div>
-            <div class="skill">CSS</div>
-            <div class="skill">TAILWIND CSS</div>
-            <div class="skill">JAVASCRIPT</div>
-            <div class="skill">REACT</div>
-            <div class="skill">ZUSTAND</div>
-            <div class="skill">Next.JS</div>
-            <div class="skill">EXPRESS</div>
-            <div class="skill">PYTHON</div>
-            <div class="skill">FLASK</div>
-            <div class="skill">PRISMA</div>
-            <div class="skill">MONGO_DB</div>
-            <div class="skill">POSTGRESQL</div>
-            <div class="skill">SQL</div>
-          </div>
-        </div> -->
+
         <div class="skills">
           <h3>Tech I use</h3>
 
@@ -158,7 +152,7 @@
             <div class="links">
               <a href="https://touchpointapp.app" target="_blank">Live</a>
               <a
-                href="https://https://github.com/Hazichomwarr/touchpoint"
+                href="https://github.com/Hazichomwarr/touchpoint"
                 target="_blank"
                 >Code</a
               >
@@ -185,7 +179,7 @@
             <div class="links">
               <a href="https://www.didi-cuisine.com" target="_blank">Live</a>
               <a
-                href="https://www.github.com/Hazichomwarr/didi_cuisine.git"
+                href="https://github.com/Hazichomwarr/didi_cuisine.git"
                 target="_blank"
                 >Code</a
               >
@@ -284,10 +278,13 @@
           ><i class="fa fa-linkedin-square" style="font-size: 36px"></i
         ></a>
       </div>
-      <small>Hamza Mare 2026 &copy; All rights reserved</small>
+      <small
+        >Hamza Mare <span id="year"></span> &copy; all rights reserved</small
+      >
       <a href="#" class="mobile-only"><small>Back Home</small></a>
     </footer>
     <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
       const hamburger = document.getElementById("hamburger");
       const navLinks = document.getElementById("nav-links");
 

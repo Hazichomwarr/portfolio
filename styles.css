@@ -240,6 +240,11 @@ h3,
   transform: translateY(-6px);
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
 }
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
 
 .muted {
   color: #d1d5db;
